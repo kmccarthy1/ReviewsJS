@@ -175,6 +175,10 @@ main {
 .container {
   width: 80vw;
   max-width: var(--fixed-width);
+  border-style: inset;
+  border-width: 10px;
+  border-color: hsl(205, 78%, 60%);
+  padding: 50px;
 }
 .review {
   background: var(--clr-white);
